@@ -6,7 +6,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #1a4072;
+  background-color:  #B8DBFF;
   margin-left:-1cm;
   margin-right:-1cm;
   margin-top:-1cm;
@@ -18,7 +18,7 @@ body {
 
 
 .topmenu {
-  color: #5ce1e6;
+  color: #1a4072;
   margin: 5px;
   padding: 10px;
   font-size: 20px;
@@ -39,10 +39,10 @@ body {
 .dp {
   float: left;
   padding-left: 2cm;
-  margin-top: -5mm;
+  margin-top: -3.5mm;
 }
 .dp img {
-  width: 80px;
+  width: 120px;
   height: auto;
 }
 
@@ -52,7 +52,7 @@ body {
   margin-top: -6mm;
   /* Add the styles here */
   font-size: 15px;
-  color: #5ce1e6;
+  color: #1a4072;
 }
 
 .profile_name p {
@@ -109,7 +109,7 @@ body {
 }
 
 .btn:hover {
-  color: #5ce1e6;
+  color: #B8DBFF;
   background-color: #1a4072;
 }
 
