@@ -280,7 +280,7 @@ fieldset {
   border: thin solid white;
   width: 50%;
 }
-@media screen and (max-width: 640px)
+@media screen and (max-width: 600px)
 {
   .topmenu {
     color: #1a4072;
