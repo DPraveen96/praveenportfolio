@@ -15,8 +15,6 @@ body {
   padding-right: 5mm;
   height: 1mm;
  }
-
-
 .topmenu {
   color: #1a4072;
   margin: 5px;
@@ -24,17 +22,14 @@ body {
   font-size: 20px;
   text-decoration: none;
 }
-
 .topmenu:hover {
   text-decoration: underline;
   font-weight: bold;
  }
-
 .topdiv {
   float: right;
   padding-right: 1cm;
 }
-
 .dp {
   float: left;
   padding-left: 2cm;
@@ -44,7 +39,6 @@ body {
   width: 120px;
   height: auto;
 }
-
 .profile_name {
   float: left;
   padding-left: 5mm;
@@ -53,48 +47,36 @@ body {
   font-size: 15px;
   color: #1a4072;
 }
-
 .profile_name p {
   margin-top: -5mm;
 }
-
-
 .mail {
   position: relative;
   width: 40px;
   display: block;
-
   border-radius: 1px;
 }
-
 .mail img {
   display: block;
   width: 100%;
-
 }
-
 .image_overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  
+  height: 100%; 
   opacity: 0;
 }
-
 .image_overlay:hover {
   opacity: 100%;
 }
-
 .contact_info {
   font-size: 15px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-
-
 .btn {
   display: inline-block;
   border: 1.75px solid #1a4072;
@@ -106,7 +88,6 @@ body {
   color: #1a4072;
   align-items: center;
 }
-
 .btn:hover {
   color: #B8DBFF;
   background-color: #1a4072;
@@ -120,7 +101,6 @@ h2 {
   margin-top: 90px;
   color: #1a4072;
 }
-
 .introduction {
   text-align: justify;
   font-size: 30px;
@@ -144,16 +124,13 @@ h2 {
 
 .about-me {
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
-
 #about-me h1 {
   font-size: 30px;
   margin-top: 90px;
   color: #1a4072;
 }
-
 #about-me p {
   font-size: 20px;
   color: rgb(128, 128, 128);
@@ -168,14 +145,12 @@ h2 {
   vertical-align: middle;
   margin: 5px;
 }
-
 .quote {
   display: flex;
   align-items: center;
   align-content: center;
   flex-direction: column;
 }
-
 .apj h1 {
   font-size: 20px;
   font-style: italic;
@@ -184,7 +159,6 @@ h2 {
   align-items: center;
   color: rgb(128, 128, 128);
 }
-
 .apj p {
   font-size: 20px;
   text-align: center;
@@ -200,7 +174,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
-
 }
 .all_project {
   width: 400px;
@@ -210,18 +183,13 @@ h2 {
   margin: 20px;
   position: relative;
   align-items: center;
-
 }
-
-
 .project-card img {
   width: 100%;
   object-fit: cover;
   transition: 0.2s;
   height: auto;
 }
-
-
 .content {
   position: absolute;
   top: 0;
@@ -242,16 +210,10 @@ h2 {
   opacity: 0;
   transition: all 0.5s;
 }
-
-
-
 .project-card:hover .content {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-
-
 .flex_center {
   display: flex;
   align-items: center;
@@ -264,8 +226,6 @@ h2 {
   margin-top: 30px;
   margin-left: 60px;
 }
-
-
 .imres{
   display: flex;
   flex-wrap: wrap;
@@ -275,26 +235,21 @@ h2 {
   padding-left: 100px;
   padding-right: 100px;
 }
-
 .imres h1{
   font-size: 30px;
   margin-top: 100px;
   color: grey;
 }
-
 .imres p {
   font-size: 20px;
   color: rgb(58, 58, 58);
 }
-
 .imres img{
   width: 100%;
   align-items: center;
   object-fit: cover;
   height: auto;
 }
-
-
 /* Scroll to Top Button */
 
 .iconbutton{
@@ -310,14 +265,11 @@ h2 {
   bottom: 3%;
   cursor: pointer;
 }
-
-
 input, textarea {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
   margin: 10px;  
   width:100%;
 }
-
 fieldset {
   display: flexbox;
   align-content: center;
@@ -328,7 +280,6 @@ fieldset {
   border: thin solid white;
   width: 50%;
 }
-
 @media screen and (max-width: 640px)
 {
   .topmenu {
@@ -338,18 +289,15 @@ fieldset {
     font-size: 14px;
     text-decoration: none;
   }
-  
   .topmenu:hover {
     text-decoration: underline;
     font-weight: bold;
    }
-  
   .topdiv {
     float: right;
     margin-top: -0.5mm;
     padding-right: 23mm;
   }
-
   .dp {
     display: flex;
   }
@@ -359,7 +307,6 @@ fieldset {
     width: 80px;
     height: auto;
   }
-  
   .profile_name {
     margin-right: -2mm;
     margin-left: 38mm;
@@ -368,12 +315,10 @@ fieldset {
     font-size: 11px;
     color: #1a4072;
   }
-  
   .profile_name p {
     margin-left: 0mm;
     margin-top: -4.5mm;
-  }  
-
+  } 
   .apj h1 {
     font-size: 12px;
     font-style: italic;
@@ -383,7 +328,6 @@ fieldset {
     color: rgb(128, 128, 128);
     margin-left: 25px;
   }
-  
   .apj p {
     font-size: 12px;
     text-align: center;
@@ -404,7 +348,6 @@ fieldset {
     display: flex;
     align-items: center;
   }
-  
   #about-me h1 {
     font-size: 18px;
     margin-top: 60px;
@@ -412,7 +355,6 @@ fieldset {
     margin-left: -75px;
     margin-right: -100px;
   }
-  
   #about-me p {
     font-size: 10px;
     color: rgb(128, 128, 128);
@@ -429,7 +371,6 @@ fieldset {
     margin-left: -75px;
     border-radius: 1px;
   }
-  
   .contact_info {
     font-size: 10px;
     display: flex;
@@ -437,7 +378,6 @@ fieldset {
     flex-direction: row;
     margin-left: -75px;
   }
-  
   .btn {
     display: inline-block;
     border: 1.75px solid #1a4072;
@@ -465,18 +405,32 @@ fieldset {
     color: #1a4072;
     margin-right: -100px;
   }
-  
   .imres h1{
     font-size: 12px;
     margin-top: 25px;
     color: grey;
   }
-  
   .imres p {
     font-size: 9px;
     color: rgb(58, 58, 58);
     margin-right: -80px;
   }
-  
+  .iconbutton{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #1a4072;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  .iconbutton svg {
+    width: 33px;
+    margin-bottom: -5px;
+  } 
   
 }
