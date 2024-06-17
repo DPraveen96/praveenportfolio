@@ -295,7 +295,7 @@ fieldset {
    }
   .topdiv {
     float: right;
-    margin-top: -0.5mm;
+    margin-top: 0mm;
     padding-right: 23mm;
   }
   .dp {
