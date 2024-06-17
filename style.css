@@ -415,22 +415,5 @@ fieldset {
     color: rgb(58, 58, 58);
     margin-right: -80px;
   }
-  .iconbutton{
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    background-color: #1a4072;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    right: 3%;
-    bottom: 3%;
-    cursor: pointer;
-  }
-  .iconbutton svg {
-    width: 33px;
-    margin-bottom: -5px;
-  } 
   
 }
