@@ -297,7 +297,7 @@ fieldset {
   .topmenu {
     color: #1a4072;
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
   }
   .topmenu:hover {
@@ -307,6 +307,7 @@ fieldset {
   .topdiv {
     align-items: center;
     margin-top: -3mm;
+    margin-right: -10mm
     padding-left: 90mm;    
     position: absolute;
   }
@@ -321,7 +322,7 @@ fieldset {
   }
   .profile_name {
     margin-right: -3mm;
-    margin-left: 25mm;
+    margin-left: 35mm;
     margin-top: -5mm;
     /* Add the styles here */
     font-size: 10px;
