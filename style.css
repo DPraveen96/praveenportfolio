@@ -23,6 +23,7 @@ body {
   text-decoration: none;
 }
 .topmenu:hover {
+  text-decoration: none;
   font-weight: bold;
  }
 .topdiv {
@@ -296,6 +297,7 @@ fieldset {
     text-decoration: none;
   }
   .topmenu:hover {
+    text-decoration: none;
     font-weight: bold;
    }
   .topdiv {
