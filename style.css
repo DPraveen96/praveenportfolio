@@ -23,7 +23,6 @@ body {
   text-decoration: none;
 }
 .topmenu:hover {
-  text-decoration: underline;
   font-weight: bold;
  }
 .topdiv {
@@ -297,12 +296,11 @@ fieldset {
     text-decoration: none;
   }
   .topmenu:hover {
-    text-decoration: underline;
     font-weight: bold;
    }
   .topdiv {
     float: right;
-    margin-top: -0.5mm;
+    margin-top: -1mm;
     padding-right: 23mm;
   }
   .dp {
