@@ -298,6 +298,7 @@ fieldset {
     color: #1a4072;
     padding: 10px;
     font-size: 12px;
+    margin-right: -20px;
     text-decoration: none;
   }
   .topmenu:hover {
@@ -307,7 +308,7 @@ fieldset {
   .topdiv {
     align-items: center;
     margin-top: -3mm;
-    margin-right: -10mm;
+    margin-right: -20mm;
     margin-left: 90mm;
     position: absolute;
   }
