@@ -291,7 +291,6 @@ fieldset {
 
   .topmenu {
     color: #1a4072;
-    margin-left: 2px;
     padding: 10px;
     font-size: 14px;
     text-decoration: none;
@@ -301,26 +300,28 @@ fieldset {
     font-weight: bold;
    }
   .topdiv {
-    float: right;
-    margin-top: -1mm;
-    padding-right: 23mm;
+    align-items: center;
+    margin-top: 8mm;
+    padding-left: 38mm;    
+    position: absolute;
   }
   .dp {
     display: flex;
   }
   .dp img {
     margin-top: -0.5mm;
-    margin-left: 0mm;
+    margin-left: 1mm;
     width: 80px;
     height: auto;
   }
   .profile_name {
     margin-right: -2mm;
-    margin-left: 38mm;
-    margin-top: -12.5mm;
+    margin-left: 39mm;
+    margin-top: -5mm;
     /* Add the styles here */
     font-size: 11px;
     color: #1a4072;
+    position: absolute;
   }
   .profile_name p {
     margin-left: 0mm;
