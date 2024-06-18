@@ -307,8 +307,8 @@ fieldset {
   .topdiv {
     align-items: center;
     margin-top: -3mm;
-    margin-right: -10mm
-    padding-left: 90mm;    
+    margin-right: -10mm;
+    margin-left: 90mm;
     position: absolute;
   }
   .dp {
@@ -323,7 +323,7 @@ fieldset {
   .profile_name {
     margin-right: -3mm;
     margin-left: 35mm;
-    margin-top: -5mm;
+    margin-top: -6mm;
     /* Add the styles here */
     font-size: 10px;
     color: #1a4072;
