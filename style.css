@@ -302,7 +302,7 @@ fieldset {
   .topdiv {
     align-items: center;
     margin-top: 8mm;
-    padding-left: 38mm;    
+    padding-left: 52mm;    
     position: absolute;
   }
   .dp {
@@ -310,13 +310,13 @@ fieldset {
   }
   .dp img {
     margin-top: -0.5mm;
-    margin-left: 1mm;
+    margin-left: 15mm;
     width: 80px;
     height: auto;
   }
   .profile_name {
     margin-right: -2mm;
-    margin-left: 39mm;
+    margin-left: 55mm;
     margin-top: -5mm;
     /* Add the styles here */
     font-size: 11px;
@@ -343,7 +343,7 @@ fieldset {
     color: rgb(128, 128, 128);
     margin-top: 5mm;
     border-left: 1cm;
-    margin-left: 25px;
+    margin-left: 22px;
   }
   .projects {
     display: flex;
