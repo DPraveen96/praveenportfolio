@@ -15,14 +15,25 @@ body {
   padding-right: 5mm;
   height: 1mm;
  }
-.topmenu {
+.topmenu1 {
   color: #1a4072;
-  margin: 5px;
+  margin: 10px;
   padding: 10px;
   font-size: 20px;
   text-decoration: none;
 }
-.topmenu:hover {
+.topmenu2 {
+  color: #1a4072;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.topmenu1:hover {
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .topmenu2:hover {
   text-decoration: none;
   font-weight: bold;
  }
@@ -294,22 +305,36 @@ fieldset {
     margin-top:-1cm;
     padding-bottom: 7mm;
    }
-  .topmenu {
+  .topmenu1 {
     color: #1a4072;
-    padding-right: -10px;
-    font-size: 12px;
-    margin-right: -20px;
+    padding: none;
+    font-size: 14px;
     text-decoration: none;
+    margin-left: 45mm;
+    margin-right: -20px;
+    margin-top: 10px;
+    position: absolute;
   }
-  .topmenu:hover {
+  .topmenu2 {
+    color: #1a4072;
+    padding: none;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 60mm;
+    margin-right: -50px;
+    position: absolute;
+  }
+  .topmenu1:hover {
+    text-decoration: none;
+    font-weight: bold;
+   }
+   .topmenu2:hover {
     text-decoration: none;
     font-weight: bold;
    }
   .topdiv {
-    align-items: center;
-    margin-top: -3mm;
-    margin-right: -30mm;
-    margin-left: 70mm;
+    margin-top: -7mm;
+    padding-left: 50mm;   
     position: absolute;
   }
   .dp {
